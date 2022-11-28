@@ -19,6 +19,9 @@ background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, F
 /*  min-width: 500px; */
 }
 header {
+  /**background-image: url('https://www.shutterstock.com/image-illustration/abstract-background-camera-flies-past-large-733632979');
+  background-size: cover;
+  background-position: center 15%;**/
   font-family: Merriweather;
   color: #fff;
   min-height: 100vh;
@@ -29,7 +32,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(40%, 1fr) ) ;
   grid-gap: 20px;
-  margin-top: 44px;
+  margin: 20px 20px;
 
   justify-items: center;
   justify-content: center;
